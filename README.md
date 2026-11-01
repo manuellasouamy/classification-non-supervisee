@@ -161,5 +161,5 @@ flowchart TD
 - **Aucune méthode ne s'impose universellement.** Le choix dépend de la nature des données, de leur organisation dans l'espace, de la présence de bruit et des objectifs de l'analyse. Les méthodes sont complémentaires.
 
 ## Logiciel et packages
-Toute l'analyse est réalisé avec le logiciel **R** et les packages suivants :`FactoMineR`, `factoextra`, `cluster`, `dbscan`.
+Toute l'analyse est réalisé avec le logiciel **R** et les packages suivants : `FactoMineR`  `factoextra`  `cluster` `dbscan`
 
