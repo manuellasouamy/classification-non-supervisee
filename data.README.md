@@ -3,7 +3,7 @@
 Placer ici le fichier **`decath.Rda`**, chargé par les scripts `01_ACP.R`, `02_CAH.R`, `03_K-means.R` et `04_DBSCAN.R` avec :
 
 ```r
-load("data/decath.Rda")
+load("decath.Rda")
 ```
 
 Ce fichier contient le data frame `decathlon` : 41 athlètes (en noms de lignes) décrits par 13 variables.
