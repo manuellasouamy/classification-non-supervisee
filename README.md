@@ -212,7 +212,7 @@ classification-non-supervisee/
 │   ├── 02_CAH.R                                        # Sections 4.3 et 4.6.1
 │   ├── 03_K-means.R                                    # Sections 4.4 et 4.6.2
 │   ├── 04_DBSCAN.R                                     # Sections 4.5 et 4.6.3
-│   └── USArrests_criteres_agregation.R                 # Section 2.1.3
+│   └── USArrests.R                 # Section 2.1.3
 ├── data/
 │   └── README.md                                       # Emplacement du fichier decath.Rda
 └── figures/                                            # Figures reprises dans ce README
@@ -224,7 +224,7 @@ classification-non-supervisee/
 | `02_CAH.R` | CAH de Ward, dendrogramme, saut d'inertie, silhouettes pour K de 2 à 10, découpage en 4 classes, profils (`aggregate`, `catdes`), silhouette, η² ; comparaison avec les liens simple, complet, moyen et centre de gravité |
 | `03_K-means.R` | Méthode du coude et silhouettes (K de 1 à 10 et de 2 à 10), K-means avec K = 4, inerties intra et inter-classes, profils, silhouette, η² |
 | `04_DBSCAN.R` | k-NN distance plots, tests de ε sur les 10 variables puis sur (CP1, CP2), modèle final, profils, silhouette hors bruit, η² |
-| `USArrests_criteres_agregation.R` | CAH avec les 5 critères d'agrégation, découpage en 3 classes, détection des inversions du centre de gravité, tableau comparatif |
+| `USArrests.R` | CAH avec les 5 critères d'agrégation, découpage en 3 classes, détection des inversions du centre de gravité, tableau comparatif |
 
 ## Reproduire l'analyse
 
@@ -239,7 +239,7 @@ classification-non-supervisee/
    ```r
    setwd("chemin/vers/classification-non-supervisee")
    ```
-4. Exécuter les scripts de `01_ à 04_`. Ils sont indépendants : chacun recharge et prépare les données. `USArrests_criteres_agregation.R` utilise un jeu de données intégré à R et ne nécessite aucun fichier.
+4. Exécuter les scripts de `01_ à 04_`. Ils sont indépendants : chacun recharge et prépare les données. `USArrests.R` utilise un jeu de données intégré à R et ne nécessite aucun fichier.
 
 **Compiler le rapport :** depuis `rapport/latex/`, lancer `pdflatex main.tex` deux fois (pour la table des matières et la liste des figures).
 
