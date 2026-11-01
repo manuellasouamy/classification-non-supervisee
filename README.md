@@ -102,10 +102,10 @@ flowchart TD
 
 | | CAH (Ward) | K-means | DBSCAN |
 |---|---|---|---|
-| Espace de classification | 10 variables standardisées | 10 variables standardisées | Plan (CP1, CP2) |
-| Nombre de classes | 4 | 4 | 3 et 3 points de bruit |
-| Effectifs | 3 / 19 / 11 / 8 | 13 / 3 / 13 / 12 | 3 / 32 / 3 et 3 points de bruit |
-| Autre indicateur | Coefficient agglomératif : 0,76 | Variance expliquée : 39.507 % |  |
+| **Espace de classification** | 10 variables standardisées | 10 variables standardisées | Plan (CP1, CP2) |
+| **Nombre de classes** | 4 | 4 | 3 et 3 points de bruit |
+| **Effectifs** | 3 / 19 / 11 / 8 | 13 / 3 / 13 / 12 | 3 / 32 / 3 et 3 points de bruit |
+| **Autre indicateur** | Coefficient agglomératif : 0,76 | Variance expliquée : 39.507 % |  |
 | **Silhouette moyenne** | 0.131 | 0.141 | **0.291** (38 individus hors bruit) |
 | **η² avec CP1** | 0.734 | **0.805** | 0.431 |
 | **η² avec CP2** | **0.470** | 0.176 | 0.239 |
@@ -120,7 +120,7 @@ flowchart TD
 <details>
 <summary><b>Détail des classes : CAH</b></summary>
 
-| Classe | n | Score moyen | Profil (variables significatives avec <code>catdes</code>) | Silhouette |
+| Classe | n | Score moyen | Profil  | Silhouette |
 |---|---|---|---|---|
 | 1 | 3 | 8 813 pts | Sebrle, Clay et Karpov, les médaillés des JO. Meilleurs en longueur, disque, poids, javelot et hauteur, plus rapides au 100 m, 400 m et 110 m haies. Athlètes complets | 0.327 |
 | 2 | 19 | 8 082 pts | Athlètes des deux compétitions. Temps significativement inférieurs à la moyenne sur toutes les courses (1500 m, 400 m, 110 m haies, 100 m) : vitesse et endurance | 0.147 |
@@ -132,7 +132,7 @@ flowchart TD
 <details>
 <summary><b>Détail des classes : K-means</b></summary>
 
-| Classe | n | Score moyen | Profil (variables significatives avec <code>catdes</code>) | Silhouette |
+| Classe | n | Score moyen | Profil | Silhouette |
 |---|---|---|---|---|
 | 1 | 13 | 7 655 pts | Comparable à la classe 4 de la CAH, avec 5 athlètes de la classe 3 de la CAH en plus. Plus lents au 100 m, 400 m et 110 m haies, plus faibles en longueur | 0.060 |
 | 2 | 3 | – | Identique à la classe 1 de la CAH (Sebrle, Clay, Karpov) | 0.303 |
@@ -144,7 +144,7 @@ flowchart TD
 <details>
 <summary><b>Détail des classes : DBSCAN</b></summary>
 
-| Classe | n | Profil (variables significatives avec <code>catdes</code>) | Silhouette |
+| Classe | n | Profil | Silhouette |
 |---|---|---|---|
 | 1 | 3 | Sebrle, Clay et Karpov, identique à la classe 1 de la CAH et à la classe 2 des K-means | 0.785 |
 | 2 | 32 | La majorité des athlètes, répartis de façon continue dans le plan. Disque et poids significativement inférieurs à la moyenne | 0.189 |
