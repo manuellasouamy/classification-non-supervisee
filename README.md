@@ -2,8 +2,6 @@
 
 Étude théorique et comparative de trois méthodes de clustering, la **Classification Ascendante Hiérarchique (CAH)**, les **K-means** et **DBSCAN**, précédées d'une **Analyse en Composantes Principales (ACP)**. Les méthodes sont appliquées au jeu de données **Decathlon** (41 athlètes, 10 épreuves). Toutes les analyses sont réalisées avec **R**.
 
-> Travail personnel encadré (TPE) · Master 1 Mathématiques et Applications · UFR Sciences et Techniques, Université Le Havre Normandie · Année universitaire 2025-2026 · Encadré par Mme Sylviane WEY
-
 📄 **[Lire le rapport complet (PDF, 55 pages)](Methodes_de_classification_non_supervisee.pdf)**
 
 ---
@@ -241,11 +239,9 @@ classification-non-supervisee/
    ```
 4. Exécuter les scripts de `01_ à 04_`. Ils sont indépendants : chacun recharge et prépare les données. `USArrests.R` utilise un jeu de données intégré à R et ne nécessite aucun fichier.
 
-**Compiler le rapport :** depuis `rapport/latex/`, lancer `pdflatex main.tex` deux fois (pour la table des matières et la liste des figures).
 
 ## Auteures
-
-Projet réalisé en binôme par **Dyhia BENHADDAD** et **Manuella IKOUTOU SOUAMY**, sous l'encadrement de **Mme Sylviane WEY** (Université Le Havre Normandie).
+Travail personnel encadré réalisé en binôme avec **Dyhia BENHADDAD** sous l'encadrement de **Mme Sylviane WEY** . Master 1 Mathématiques et Applications · UFR Sciences et Techniques, Université Le Havre Normandie · Année universitaire 2025-2026 ·
 
 ## Références
 
