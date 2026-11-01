@@ -105,7 +105,7 @@ flowchart TD
 | Espace de classification | 10 variables standardisées | 10 variables standardisées | Plan (CP1, CP2) |
 | Nombre de classes | 4 | 4 | 3 et 3 points de bruit |
 | Effectifs | 3 / 19 / 11 / 8 | 13 / 3 / 13 / 12 | 3 / 32 / 3 et 3 points de bruit |
-| Autre indicateur | Coefficient agglomératif : 0,76 | Variance expliquée : 39.507 % | – |
+| Autre indicateur | Coefficient agglomératif : 0,76 | Variance expliquée : 39.507 % |  |
 | **Silhouette moyenne** | 0.131 | 0.141 | **0.291** (38 individus hors bruit) |
 | **η² avec CP1** | 0.734 | **0.805** | 0.431 |
 | **η² avec CP2** | **0.470** | 0.176 | 0.239 |
