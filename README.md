@@ -4,7 +4,7 @@
 
 > Travail personnel encadré (TPE) · Master 1 Mathématiques et Applications · UFR Sciences et Techniques, Université Le Havre Normandie · Année universitaire 2025-2026 · Encadré par Mme Sylviane WEY
 
-📄 **[Lire le rapport complet (PDF, 55 pages)](rapport/Methodes_de_classification_non_supervisee.pdf)**
+📄 **[Lire le rapport complet (PDF, 55 pages)](Methodes_de_classification_non_supervisee.pdf)**
 
 ---
 
@@ -100,7 +100,7 @@ flowchart TD
 - Les ellipses des deux compétitions se **chevauchent** : le plan ne sépare pas les athlètes des JO de ceux du Decastar.
 
 <p align="center">
-  <img src="figures/acp_cercle_correlations.png" alt="Cercle des corrélations de l'ACP" width="520">
+  <img src="acp_cercle_correlations.png" alt="Cercle des corrélations de l'ACP" width="520">
 </p>
 
 ### 2. Choix du nombre de classes
@@ -120,9 +120,9 @@ flowchart TD
     <th align="center">DBSCAN (3 classes et bruit)</th>
   </tr>
   <tr>
-    <td><img src="figures/cah_clusters_plan_acp.png" alt="Classes de la CAH dans le plan de l'ACP"></td>
-    <td><img src="figures/kmeans_clusters_plan_acp.png" alt="Classes des K-means dans le plan de l'ACP"></td>
-    <td><img src="figures/dbscan_clusters_plan_acp.png" alt="Classes de DBSCAN dans le plan de l'ACP"></td>
+    <td><img src="cah_clusters_plan_acp.png" alt="Classes de la CAH dans le plan de l'ACP"></td>
+    <td><img src="kmeans_clusters_plan_acp.png" alt="Classes des K-means dans le plan de l'ACP"></td>
+    <td><img src="dbscan_clusters_plan_acp.png" alt="Classes de DBSCAN dans le plan de l'ACP"></td>
   </tr>
 </table>
 
@@ -234,12 +234,12 @@ classification-non-supervisee/
    ```bash
    git clone https://github.com/<votre-pseudo>/classification-non-supervisee.git
    ```
-2. Placer le fichier de données `decath.Rda` dans le dossier `data/` (voir [`data/README.md`](data/README.md)).
+2. Placer le fichier de données `decath.Rda` dans le dossier `data/` (voir [`data.README.md`](data.README.md)).
 3. Définir la racine du dépôt comme répertoire de travail :
    ```r
    setwd("chemin/vers/classification-non-supervisee")
    ```
-4. Exécuter les scripts du dossier `scripts/`. Ils sont indépendants : chacun recharge et prépare les données. `USArrests_criteres_agregation.R` utilise un jeu de données intégré à R et ne nécessite aucun fichier.
+4. Exécuter les scripts de `01_ à 04_`. Ils sont indépendants : chacun recharge et prépare les données. `USArrests_criteres_agregation.R` utilise un jeu de données intégré à R et ne nécessite aucun fichier.
 
 **Compiler le rapport :** depuis `rapport/latex/`, lancer `pdflatex main.tex` deux fois (pour la table des matières et la liste des figures).
 
