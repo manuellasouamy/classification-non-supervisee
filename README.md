@@ -13,8 +13,7 @@ Notre étude cherche donc à répondre à la problématique suivante :
 
 ## Données
 
-### Decathlon  ([`decath.Rda`](decath.Rda))
-
+Le jeu de données *Decathlon*  ([`decath.Rda`](decath.Rda)) contient:
 - **41 observations** : des athlètes ayant participé à deux compétitions, les *Jeux Olympiques (28)* et le *Decastar (13)*.
 - **13 variables** : les *10 épreuves* (100 m, longueur, poids, hauteur, 400 m, 110 m haies, disque, perche, javelot, 1500 m), le *nombre de points*, le *classement* et la *compétition*.
   
@@ -164,4 +163,3 @@ flowchart TD
 ## Logiciel et packages
 Toute l'analyse est réalisé avec le logiciel **R** et les packages suivants :`FactoMineR`, `factoextra`, `cluster`, `dbscan`.
 
-Si vous souhait
