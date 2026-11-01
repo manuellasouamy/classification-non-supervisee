@@ -1,0 +1,23 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Fichiers auxiliaires LaTeX
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+# PDF recompilé localement (le rapport final est dans rapport/)
+rapport/latex/main.pdf
+
+# Système
+.DS_Store
+Thumbs.db
